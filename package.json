@@ -1,0 +1,12 @@
+{
+  "name": "jb-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@jyskebank/jb-foo": "git+https://github.com/dalsgaard/jb-foo.git#v0.0.6"
+  }
+}
