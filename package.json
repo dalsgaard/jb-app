@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack/dev.config.js",
+    "dist": "webpack --config webpack/prod.config.js"
   },
   "dependencies": {
-    "@jyskebank/jb-foo": "git+https://github.com/dalsgaard/jb-foo.git#v0.0.6"
+    "@jyskebank/jb-foo": "git+https://github.com/dalsgaard/jb-foo.git#develop",
+    "@polymer/polymer": "^3.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
   }
 }
