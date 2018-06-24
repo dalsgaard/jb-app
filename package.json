@@ -15,7 +15,7 @@
     "@types/polymer": "^1.2.4"
   },
   "devDependencies": {
-    "webpack": "^4.12.0",
+    "webpack": "^4.12.1",
     "webpack-command": "^0.2.1",
     "webpack-serve": "^1.0.4"
   }
