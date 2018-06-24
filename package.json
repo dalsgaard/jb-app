@@ -10,9 +10,9 @@
     "serve": "webpack-serve --port 8320"
   },
   "dependencies": {
+    "@jyskebank/jb-bar": "git+https://github.com/dalsgaard/jb-bar.git#develop",
     "@jyskebank/jb-foo": "git+https://github.com/dalsgaard/jb-foo.git#develop",
-    "@polymer/polymer": "^3.0.2",
-    "@types/polymer": "^1.2.4"
+    "@polymer/polymer": "3.0.2"
   },
   "devDependencies": {
     "webpack": "^4.12.1",

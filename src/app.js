@@ -1,5 +1,6 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element';
 import '@jyskebank/jb-foo';
+import '@jyskebank/jb-bar';
 
 export class App extends PolymerElement {
   
@@ -8,6 +9,7 @@ export class App extends PolymerElement {
       <section>
         <h3>Demo</h3>
         <jb-foo></jb-foo>
+        <jb-bar></jb-bar>
       </section>
     `;
   }
