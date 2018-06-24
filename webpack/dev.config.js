@@ -7,5 +7,8 @@ module.exports = Object.assign(common, {
   output: {
     path: path.resolve('./public'),
     filename: 'bundle.js'
+  },
+  resolve: {
+    modules: [path.resolve('link_modules'), path.resolve('node_modules'), 'node_modules']
   }
 });

@@ -6,14 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack/dev.config.js",
-    "dist": "webpack --config webpack/prod.config.js"
+    "dist": "webpack --config webpack/prod.config.js",
+    "serve": "webpack-serve --port 8320"
   },
   "dependencies": {
     "@jyskebank/jb-foo": "git+https://github.com/dalsgaard/jb-foo.git#develop",
-    "@polymer/polymer": "^3.0.2"
+    "@polymer/polymer": "^3.0.2",
+    "@types/polymer": "^1.2.4"
   },
   "devDependencies": {
     "webpack": "^4.12.0",
-    "webpack-command": "^0.2.1"
+    "webpack-command": "^0.2.1",
+    "webpack-serve": "^1.0.4"
   }
 }
